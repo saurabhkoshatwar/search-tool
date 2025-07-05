@@ -1,0 +1,12 @@
+{
+  "Fruits": {
+    "Apple": "A sweet red or green fruit.",
+    "Banana": "A long yellow fruit.",
+    "Cherry": "A small, round, red fruit."
+  },
+  "Vegetables": {
+    "Carrot": "An orange root vegetable.",
+    "Broccoli": "A green vegetable that looks like a tree.",
+    "Spinach": "A leafy green vegetable."
+  }
+} 
