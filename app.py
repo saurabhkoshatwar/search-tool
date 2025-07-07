@@ -21,10 +21,11 @@ st.sidebar.markdown("""
 category_labels = [f"🔍 {key}" for key in data.keys()]
 category_map = dict(zip(category_labels, data.keys()))
 selected_label = st.sidebar.radio(
-    label="",
+    label="Select category",
     options=category_labels,
     index=0,
-    key="category_radio"
+    key="category_radio",
+    label_visibility="collapsed"
 )
 selected_key = category_map[selected_label]
 
